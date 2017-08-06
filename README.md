@@ -6,4 +6,4 @@ A personal refresher to maintain working knowledge of Ruby on Rails.
 
 ![alt text](./readme_support/datamodels.png "Basic Data Models")
 
-hosted [here](#)
+hosted [nowhere yet](#)
