@@ -34,10 +34,9 @@ gem 'bcrypt', '~> 3.1.7'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-# Use haml for view templates
+# view layer
+gem 'simple_form'
 gem 'haml-rails', '~> 0.9.0'
-
-# Use Boostratp for styling
 gem 'twitter-bootstrap-rails', '~> 3.2', '>= 3.2.2'
 
 group :development, :test do
