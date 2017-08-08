@@ -1,0 +1,15 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}
+
+    %title RorRefresher
+
+    %link{ href: "//fonts.googleapis.com/css?family=Baloo", type: 'text/css' }
+
+    = csrf_meta_tags
+    = stylesheet_link_tag    'application', media: 'all'
+    = javascript_include_tag 'application'
+  %body
+    = yield
+%html

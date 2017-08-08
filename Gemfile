@@ -23,6 +23,8 @@ gem 'coffee-rails', '~> 4.2'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+# Use rspec
+gem 'rspec'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
@@ -37,7 +39,7 @@ gem 'bcrypt', '~> 3.1.7'
 # view layer
 gem 'simple_form'
 gem 'haml-rails', '~> 0.9.0'
-gem 'twitter-bootstrap-rails', '~> 3.2', '>= 3.2.2'
+gem 'bootstrap-sass'
 
 group :development, :test do
   gem 'pry-rails'
